@@ -7,6 +7,7 @@ import (
 func (s *FiberServer) RegisterFiberRoutes() {
 	s.App.Get("/", s.HelloWorldHandler)
 	s.App.Get("/health", s.healthHandler)
+	
 
 }
 
